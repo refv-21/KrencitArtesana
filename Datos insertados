@@ -1,0 +1,34 @@
+GO
+USE DB_KRENCIT
+
+
+go
+
+
+insert into USUARIO(Nombres,Apellidos,Correo,Contrasena,EsAdministrador) values ('Laura','Vadillo','admin@krencit.com','admin123',1)
+
+GO
+insert into CATEGORIA(Descripcion) values
+('Jabones'),
+('Ceras'),
+('Aceites'),
+('Joyer�a')
+
+GO
+
+insert into MARCA(Descripcion) values
+('JAB�N'),
+('CERA'),
+('ACEITE'),
+('JOYAS')
+
+GO
+
+
+
+insert into PRODUCTO(Nombre,Descripcion,IdMarca,IdCategoria,Precio,Stock,RutaImagen) values('Jab�n de miel y manzanilla','Exquisito jab�n
+elaborado con la dulzura de la miel y
+acompa�ado de las propiedades curativas de la manzanilla',1,1,'2.50','50','~/Imagenes/Productos/Jab�n de miel y manzanilla.jpg')
+
+
+go
